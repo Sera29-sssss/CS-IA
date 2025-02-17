@@ -16,67 +16,11 @@ components:
       type: Spacer
     - layout_properties: {grid_position: 'UGMRFF,IPFZTT LBYAUR,PHKOAE'}
       name: label_7
-      properties: {align: center, background: '', bold: false, border: '', font: Yeseva One, font_size: 24, foreground: 'theme:White', icon: '', icon_align: left, italic: false, role: logo, spacing_above: small, spacing_below: small, text: Cupcakes & Co., tooltip: '', underline: false, visible: true}
-      type: Label
-    - layout_properties: {grid_position: 'UGMRFF,AHSXUN NZSVDO,NOYBEH'}
-      name: label_2
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 18, foreground: 'theme:White', icon: '', icon_align: left, italic: false, role: spaced-title, spacing_above: small, spacing_below: none, text: OUR STORE, tooltip: '', underline: false, visible: true}
-      type: Label
-    - layout_properties: {grid_position: 'UGMRFF,AHSXUN NZSVDO,WIBESS'}
-      name: label_3
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 18, foreground: white, icon: '', icon_align: left, italic: false, role: spaced-title, spacing_above: small, spacing_below: none, text: OPENING HOURS, tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: Yeseva One, font_size: 24, foreground: 'theme:White', icon: '', icon_align: left, italic: false, role: logo, spacing_above: small, spacing_below: small, text: Bracelet Bliss, tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'UGMRFF,AHSXUN NZSVDO,RFCTKC'}
       name: label_8
       properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 18, foreground: white, icon: '', icon_align: left, italic: false, role: spaced-title, spacing_above: small, spacing_below: small, text: STAY CONNECTED, tooltip: '', underline: false, visible: true}
-      type: Label
-    - layout_properties: {grid_position: 'UGMRFF,AHSXUN VIQBXT,LCPLJN'}
-      name: label_4
-      properties:
-        align: center
-        background: ''
-        bold: false
-        border: ''
-        font: ''
-        font_size: null
-        foreground: theme:White
-        icon: ''
-        icon_align: left
-        italic: false
-        role: null
-        spacing_above: none
-        spacing_below: small
-        text: |
-          129 West 81st Street
-          Apartment 5A
-          New York, NY
-        tooltip: ''
-        underline: false
-        visible: true
-      type: Label
-    - layout_properties: {grid_position: 'UGMRFF,AHSXUN VIQBXT,PFDDNQ'}
-      name: label_5
-      properties:
-        align: center
-        background: ''
-        bold: false
-        border: ''
-        font: ''
-        font_size: null
-        foreground: theme:White
-        icon: ''
-        icon_align: left
-        italic: false
-        role: null
-        spacing_above: none
-        spacing_below: small
-        text: |
-          Closed Mondays
-          Tue - Thurs: 9am - 5pm
-          Fri - Sun: 9am - 8pm
-        tooltip: ''
-        underline: false
-        visible: true
       type: Label
     - components:
       - components: []
@@ -97,34 +41,11 @@ components:
       name: flow_panel_1
       properties: {align: center, background: '', border: '', foreground: '', role: null, spacing: medium, spacing_above: small, spacing_below: small, tooltip: '', visible: true}
       type: FlowPanel
-    - layout_properties: {grid_position: 'UGMRFF,AHSXUN WLZBCS,NAQZJW'}
-      name: label_6
-      properties:
-        align: center
-        background: ''
-        bold: false
-        border: ''
-        font: ''
-        font_size: null
-        foreground: theme:White
-        icon: ''
-        icon_align: left
-        italic: false
-        role: null
-        spacing_above: small
-        spacing_below: small
-        text: |-
-          (555) 555-5555
-          info@cupcakesco.com
-        tooltip: ''
-        underline: false
-        visible: true
-      type: Label
-    - layout_properties: {grid_position: 'UGMRFF,AHSXUN WLZBCS,CWCOEF XPYUKW,GBAUQJ'}
+    - layout_properties: {grid_position: 'UGMRFF,AHSXUN XPYUKW,GBAUQJ'}
       name: spacer_6
       properties: {height: 23}
       type: Spacer
-    - layout_properties: {grid_position: 'UGMRFF,AHSXUN WLZBCS,CWCOEF APDOTD,CKMYMO'}
+    - layout_properties: {grid_position: 'UGMRFF,AHSXUN APDOTD,CKMYMO'}
       name: label_9
       properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: white, icon: '', icon_align: left, italic: false, role: spaced-title, spacing_above: none, spacing_below: none, text: 'SUBSCRIBE FOR UPDATES:', tooltip: '', underline: false, visible: true}
       type: Label
@@ -138,7 +59,7 @@ components:
         name: subscribe_button
         properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: secondary-color, spacing_above: small, spacing_below: small, text: submit, tooltip: '', underline: false, visible: true}
         type: Button
-      layout_properties: {grid_position: 'UGMRFF,AHSXUN WLZBCS,CWCOEF YDVRTJ,VMFNGH'}
+      layout_properties: {grid_position: 'UGMRFF,AHSXUN YDVRTJ,VMFNGH'}
       name: flow_panel_2
       properties: {align: center, background: '', border: '', foreground: '', role: null, spacing: medium, spacing_above: small, spacing_below: small, tooltip: '', visible: true}
       type: FlowPanel
@@ -148,7 +69,7 @@ components:
       type: Spacer
     layout_properties: {full_width_row: true, grid_position: 'SFZTYX,WGSIKL'}
     name: card_1
-    properties: {background: 'theme:Primary 500', border: '', col_spacing: medium, col_widths: '{"IPFZTT":15,"AHSXUN":45,"LCPLJN":20,"PFDDNQ":22,"NAQZJW":20,"CWCOEF":40,"NOYBEH":20,"WIBESS":22,"RFCTKC":18,"FOYDPL":37,"GSLTDF":18}', foreground: '', role: null, spacing_above: small, spacing_below: small, tooltip: '', visible: true, wrap_on: mobile}
+    properties: {background: 'theme:Primary 500', border: '', col_spacing: medium, col_widths: '{"IPFZTT":15,"AHSXUN":45,"PFDDNQ":22,"CWCOEF":40,"RFCTKC":18,"GSLTDF":18}', foreground: '', role: null, spacing_above: small, spacing_below: small, tooltip: '', visible: true, wrap_on: mobile}
     type: ColumnPanel
   layout_properties: {slot: default}
   name: content_panel
@@ -199,7 +120,7 @@ components:
   type: FlowPanel
 - layout_properties: {slot: title}
   name: label_1
-  properties: {align: center, background: '', bold: false, border: '', font: Yeseva One, font_size: 24, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: Cupcakes & Co., tooltip: '', underline: false, visible: true}
+  properties: {align: center, background: '', bold: false, border: '', font: Yeseva One, font_size: 24, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: Bracelet Bliss, tooltip: '', underline: false, visible: true}
   type: Label
 - components:
   - event_bindings: {click: home_link_click}
