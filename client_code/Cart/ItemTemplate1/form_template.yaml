@@ -13,13 +13,13 @@ components:
     properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
     type: Label
   - data_bindings:
-    - {code: 'f"${self.item[''product''][''price''] * self.item[''quantity'']}"', property: text}
+    - {code: 'f"Rs.{self.item[''product''][''price''] * self.item[''quantity'']}"', property: text, writeback: false}
     layout_properties: {grid_position: 'NWYVIC,NZCRTN HFUTIJ,AIBSDM'}
     name: total_label
     properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
     type: Label
   - data_bindings:
-    - {code: 'f"${self.item[''product''][''price'']} each"', property: text}
+    - {code: 'f"Rs.{self.item[''product''][''price'']} each"', property: text, writeback: false}
     layout_properties: {grid_position: 'NWYVIC,NZCRTN ISFRII,CJHQNT PXDWVR,JXMZES'}
     name: label_2
     properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
