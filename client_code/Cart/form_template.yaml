@@ -64,10 +64,14 @@ components:
     properties: {align: right, background: '', bold: false, border: '', font: '', font_size: 20, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
     type: Label
   - event_bindings: {click: checkout_button_click}
-    layout_properties: {grid_position: 'OUWTBH,YWQKWK CNSFSL,QGZALB'}
+    layout_properties: {grid_position: 'OUWTBH,YWQKWK JUPVCK,DQFMRX'}
     name: checkout_button
     properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: 'fa:lock', icon_align: left, italic: false, role: secondary-color, spacing_above: small, spacing_below: small, text: Checkout, tooltip: '', underline: false, visible: true}
     type: Button
+  - layout_properties: {grid_position: 'OUWTBH,YWQKWK BVWPAT,GLBJFU'}
+    name: card_1
+    properties: {role: card}
+    type: ColumnPanel
   layout_properties: {full_width_row: true, grid_position: 'BXIKBZ,OWXGLM'}
   name: column_panel_1
   properties: {background: '', border: '', col_spacing: huge, col_widths: '{"SLTMFK":40,"YWQKWK":20,"LNYVOQ":55,"KDNCGX":5}', foreground: '', role: null, spacing_above: small, spacing_below: small, tooltip: '', visible: true, wrap_on: mobile}
